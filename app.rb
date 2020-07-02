@@ -7,7 +7,8 @@ get '/newteam' do
 end
 
 post '/team' do 
-  @team_data = params
+  @team = params[:team]
+  @coach = params[:coach]
   
   erb :team
 end
