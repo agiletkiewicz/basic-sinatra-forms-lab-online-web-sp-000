@@ -6,4 +6,11 @@ get '/newteam' do
   erb :newteam
 end
 
+post '/team' do 
+  
+  
+  
+  erb :team
+end
+
 end
